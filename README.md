@@ -1,38 +1,45 @@
 # ETL Pipeline Project
+
 This project contains an ETL (Extract, Transform, Load) pipeline implemented in Python. The pipeline is designed to handle data extraction, transformation, and loading processes, making it easier to manage and process data from various sources.
 
-**Project Structure**  
+## Project Structure
+
 The project is organized into four main scripts:
 
-extract.py - Handles the extraction of data from the source.
-transform.py - Manages the transformation of the extracted data.
-load.py - Loads the transformed data into the desired destination.
-etl_pipeline.py - Combines the extraction, transformation, and loading processes into a single pipeline. 
+- `extract.py` - Handles the extraction of data from the source.
+- `transform.py` - Manages the transformation of the extracted data.
+- `load.py` - Loads the transformed data into the desired destination.
+- `etl_pipeline.py` - Combines the extraction, transformation, and loading processes into a single pipeline.
 
-**Getting Started**  
-Prerequisites
+## Getting Started
+
+### Prerequisites
+
 Ensure you have the following installed on your machine:
 
-Python 3.11
-Necessary Python libraries (see requirements.txt)
-Installation
-Clone the repository:
-sh
-Copy code
-git clone https://github.com/Tar-ive/etl_project.git
-Navigate to the project directory:
-sh
-Copy code
-cd etl_pipeline_project
-Install the required libraries:
-sh
-Copy code
-pip install -r requirements.txt
-Usage
-To run the ETL pipeline, execute the etl_pipeline.py script:
+- Python 3.11
+- Necessary Python libraries (see `requirements.txt`)
 
-sh
-Copy code
+### Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Tar-ive/etl_project.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd etl_pipeline_project
+    ```
+3. Install the required libraries:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+To run the ETL pipeline, execute the `etl_pipeline.py` script:
+
+```sh
 python etl_pipeline.py
 This will trigger the extraction, transformation, and loading of data as defined in the respective scripts.
 
